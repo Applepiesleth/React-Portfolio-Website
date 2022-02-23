@@ -3,4 +3,9 @@
 .splash {
     background-image: url('http://i.stack.imgur.com/kx8MT.gif');
     background-position: center;
+
+    scrollbar-width: none; //for firefox
+        &::-webkit-scrollbar {
+            display: none;
+        }
 }
