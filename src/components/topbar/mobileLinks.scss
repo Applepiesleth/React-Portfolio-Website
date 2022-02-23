@@ -1,0 +1,38 @@
+.mobileLinksContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.mobileLinksWrapper {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100%;
+    list-style: none;
+    background-color: white;
+    width: 100%;
+    flex-direction: column;
+    position: fixed;
+    top: 65px;
+    left: 0px;
+    align-items: center;
+}
+
+.mobileLink {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    color: inherit;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+    transition: all 200ms ease-in-out;
+    width:fit-content;
+
+    &:hover {
+        border-bottom: 2px solid slategrey;
+    }
+}
