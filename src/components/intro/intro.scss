@@ -1,5 +1,81 @@
 @import "../../global.scss";
 
 .intro {
-    background-color: lightgrey;
+    background-color: $mainColor;
+    display: flex;
+    flex-direction: row;
+
+    @include mobile {
+        flex-direction: column;
+    }
+
+    .left {
+        flex: 1;
+        align-items: center;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            font-family: 'ZCOOL QingKe HuangYou', cursive;
+            font-size: 70px;
+            font-weight: 500;
+
+            @include mobile {
+                font-size: 50px;
+            }
+            
+        }
+    
+        p {
+            margin: 50px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 30px;
+            font-weight: 300;
+
+            @include mobile {
+                font-size: 20px;
+                margin: 30px;
+            }
+    
+        }
+
+        .iconList {
+            display: flex;
+            flex-direction: row;
+
+            .icon {
+                width: 50px;
+                height: 50px;
+                margin: 20px;
+                padding: 8px;
+                border-radius: 20px;
+                transition: all 100ms ease-in-out;
+                color: white;
+
+                @include mobile {
+                    width: 30px;
+                    height: 30px;
+                    margin: 5px;
+                    padding: 4px;
+                    border-radius: 2px;
+                }
+
+                &:hover {
+                    background-color: #913b35;
+                }
+            }
+        }
+
+        
+    }
+
+    .right {
+        flex: 1;
+    }
+
+    
 }
