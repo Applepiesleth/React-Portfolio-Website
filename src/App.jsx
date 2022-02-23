@@ -1,7 +1,8 @@
+import Splash from "./components/splash/Splash";
 import Intro from "./components/intro/Intro";
-import Portfolio from "./components/portfolio/Portfolio";
+import Projects from "./components/projects/Projects";
 import Topbar from "./components/topbar/Topbar";
-import Works from "./components/works/Works";
+import Gallery from "./components/gallery/Gallery";
 import Contact from "./components/contact/Contact";
 import "./app.scss"
 
@@ -10,9 +11,10 @@ function App() {
     <div className="app">
       <Topbar/>
       <div className="sections">
+        <Splash/>
         <Intro/>
-        <Portfolio/>
-        <Works/>
+        <Projects/>
+        <Gallery/>
         <Contact/>
       </div>
     </div>

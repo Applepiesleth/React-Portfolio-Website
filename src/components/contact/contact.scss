@@ -1,3 +1,104 @@
+@import "../../global.scss";
+
 .contact{
-    background-color: lightblue;
+    background-color: $mainColor;
+    display: flex;
+
+    @include mobile {
+        flex-direction: column;
+    }
+
+    .left {
+        flex: 1;
+    }
+
+    .right {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h2 {
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    form {
+        padding-top: 20px;
+        width: 70%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;   
+
+        @include mobile {
+            height: 70%;
+        }
+
+        input {
+            padding: 10px;
+            width: 300px;
+            height: 30px;
+            font-size: 14px;
+            border: none;
+            border-radius: 10px;
+
+            &:focus {
+                outline: none;
+            }
+
+            @include mobile {
+                width: 200px;
+                height: 20px;
+            }
+        }
+
+        textarea {
+            padding: 10px;
+            width: 300px;
+            height: 200px;
+            font-size: 14px;
+            border: none;
+            border-radius: 10px;
+
+            &:focus {
+                outline: none;
+            }
+
+            @include mobile {
+                width: 200px;
+                height: 100px;
+            }
+        }
+
+        button {
+            width: 200px;
+            height: 40px;
+            background-color: $mainColor;
+            color: white;
+            border: 3px solid white;
+            
+            font-size: 20px;
+            font-weight: 400;
+            
+            border-radius: 10px;
+            transition: all 100ms ease-in-out;
+
+            &:hover {
+                color: $mainColor;
+                background-color: white;
+                border: none;
+            }
+
+        }
+
+        span {
+            color: white;
+        }
+    }
 }

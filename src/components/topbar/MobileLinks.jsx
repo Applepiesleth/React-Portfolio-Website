@@ -11,8 +11,8 @@ export function MobileLinks() {
         <Hamburger toggled={isOpen} toggle={() => setOpen(!isOpen)} className="hamburger"/>
         {isOpen && (<div className="mobileLinksWrapper">
             <a onClick={()=>setOpen(false)} href="#intro" className="mobileLink">About Me</a>
-            <a onClick={()=>setOpen(false)} href="#portfolio" className="mobileLink">Portfolio</a>
-            <a onClick={()=>setOpen(false)} href="#works" className="mobileLink">Works</a>
+            <a onClick={()=>setOpen(false)} href="#projects" className="mobileLink">Projects</a>
+            <a onClick={()=>setOpen(false)} href="#gallery" className="mobileLink">Gallery</a>
             <a onClick={()=>setOpen(false)} href="#contact" className="mobileLink">Contact</a>
         </div>)}
     </div>

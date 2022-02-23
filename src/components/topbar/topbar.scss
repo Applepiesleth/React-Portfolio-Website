@@ -26,13 +26,14 @@
                 text-decoration: none;
                 color: inherit;
                 margin-right: 40px;
+                transition: all 100ms ease-in-out;
             }
 
             .linksContainer {
                 display: flex;
                 align-items: center;
                 justify-items: center;
-                margin-left: 30px;
+                margin-left: 20px;
 
                 .link {
                     height: 100%;
@@ -44,11 +45,14 @@
                     margin-right: 40px;
                     border-bottom: 2px solid transparent;
                     border-top: 2px solid transparent;
-                    transition: all 200ms ease-in-out;
+                    transition: all 100ms ease-in-out;
                     min-width: 50px;
+                    padding: 7px;
+                    border-radius: 10px;
 
                     &:hover {
-                        border-bottom: 2px solid slategrey;
+                        background-color: $mainColor;
+                        color: white;
                     }
                 }
             }
@@ -60,9 +64,7 @@
                     display: none;
                 }
             min-width: 50px;
-            .hamburger {
-                
-            }
+            
         }
     }
 }
