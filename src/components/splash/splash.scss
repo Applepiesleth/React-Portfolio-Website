@@ -1,11 +1,56 @@
 @import "../../global.scss";
 
 .splash {
-    background-image: url('http://i.stack.imgur.com/kx8MT.gif');
+    //background-image: url('http://i.stack.imgur.com/kx8MT.gif');
+    background-image: url("../../images/banff.png");
     background-position: center;
+    align-items: center;
+    display:flex;
 
     scrollbar-width: none; //for firefox
         &::-webkit-scrollbar {
             display: none;
         }
+
+    .box {
+        background: $mainColor;
+        height: 50%;
+        width: 50%;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        resize: both;
+        overflow: auto;
+        border-radius: 50px;
+        opacity: 0.93;
+        transition: all 200ms ease-in-out;
+
+        &:hover {
+            height: 55%;
+            width: 55%;
+            opacity: 1;
+        }
+
+        h1 {
+            color: white;
+            font-family: 'ZCOOL QingKe HuangYou', cursive;
+            margin-bottom: 20px;
+            font-size: 80px;
+            font-weight: 500;
+            text-align: center;
+        }
+        h2 {
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            margin-bottom: 10px;
+            font-size: 30px;
+            font-weight: 300;
+            text-align: center;
+        }
+
+        
+    }
 }
