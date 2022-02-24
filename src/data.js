@@ -45,6 +45,15 @@ export const artProjects = [
         tools: "Clip Studio Paint",
         link: "https://www.webtoons.com/en/challenge/warp-speed-and-witchcraft/list?title_no=644747"
     },
+    // {
+    //     id: 2,
+    //     img: "https://pbs.twimg.com/media/E9MXSNeVgAQAT12?format=jpg&name=900x900",
+    //     title: "Commissions",
+    //     date: "",
+    //     desc: "I take commissions!",
+    //     tools: "",
+    //     link: "#projects"
+    // },
 ]
 
 export const softwareProjects = [

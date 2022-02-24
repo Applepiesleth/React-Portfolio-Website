@@ -42,6 +42,7 @@
             font-family: 'Roboto', sans-serif;
             font-size: 30px;
             font-weight: 300;
+            height: fit-content;
 
             @include mobile {
                 font-size: 18px;

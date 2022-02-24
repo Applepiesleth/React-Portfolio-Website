@@ -37,13 +37,9 @@
         }
 
         &:hover {
-            height: 55%;
-            width: 55%;
+            // height: 55%;
+            // width: 55%;
             opacity: 1;
-        }
-
-        &:active {
-            background: black;
         }
 
         h1 {
@@ -61,13 +57,37 @@
         h2 {
             color: white;
             font-family: 'Roboto', sans-serif;
-            margin-bottom: 10px;
+            margin-bottom: 30px;
             font-size: 30px;
             font-weight: 300;
             text-align: center;
 
             @include mobile {
                 font-size: 15px;
+            }
+        }
+
+        a {
+            color: white;
+            
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 20px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+
+            border: 3px solid white;
+            
+            
+            
+            border-radius: 10px;
+            transition: all 100ms ease-in-out;
+
+            &:hover {
+                background: white;
+                color: $mainColor;
+                background-color: white;
             }
         }
 

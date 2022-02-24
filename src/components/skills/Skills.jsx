@@ -36,8 +36,6 @@ export default function Gallery() {
           <p>Linux</p>
           <p>LaTeX</p>
         </div>
-        
-        
       </div>
     </div>
   )
