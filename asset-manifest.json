@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.6f2d9dca.css",
-    "main.js": "/static/js/main.7df8e5aa.js",
+    "main.css": "/static/css/main.71dd9bd8.css",
+    "main.js": "/static/js/main.1bd2e7fe.js",
     "static/media/banff.png": "/static/media/banff.f283f3ea7eece1f831b7.png",
     "index.html": "/index.html",
-    "main.6f2d9dca.css.map": "/static/css/main.6f2d9dca.css.map",
-    "main.7df8e5aa.js.map": "/static/js/main.7df8e5aa.js.map"
+    "main.71dd9bd8.css.map": "/static/css/main.71dd9bd8.css.map",
+    "main.1bd2e7fe.js.map": "/static/js/main.1bd2e7fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f2d9dca.css",
-    "static/js/main.7df8e5aa.js"
+    "static/css/main.71dd9bd8.css",
+    "static/js/main.1bd2e7fe.js"
   ]
 }
