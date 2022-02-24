@@ -39,7 +39,7 @@ export default function Topbar() {
                             <div className="linksContainer">
                                 <a href="#intro" className="link">About Me</a>
                                 <a href="#projects" className="link">Projects</a>
-                                <a href="#gallery" className="link">Gallery</a>
+                                <a href="#skills" className="link">Skills</a>
                                 <a href="#contact" className="link">Contact</a>
                             </div>
                         </div>)}

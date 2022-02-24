@@ -92,6 +92,11 @@
             flex-wrap:wrap;
             cursor: pointer;
 
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+
             h3 {
                 margin-top: 12px;
                 font-size: 22px;
@@ -114,6 +119,11 @@
                 color: gray;
             }
 
+            .date {
+                color: $mainColor;
+                font-weight: 600;
+            }
+
             img {
                 width: 220px;
                 height: 200px;
@@ -131,7 +141,7 @@
 
             @include mobile {
                 width: 140px;
-                height: 200px;
+                height: 190px;
                 border: 5px solid white;
 
                 &:hover img{

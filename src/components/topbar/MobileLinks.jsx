@@ -12,7 +12,7 @@ export function MobileLinks() {
         {isOpen && (<div className="mobileLinksWrapper">
             <a onClick={()=>setOpen(false)} href="#intro" className="mobileLink">About Me</a>
             <a onClick={()=>setOpen(false)} href="#projects" className="mobileLink">Projects</a>
-            <a onClick={()=>setOpen(false)} href="#gallery" className="mobileLink">Gallery</a>
+            <a onClick={()=>setOpen(false)} href="#skills" className="mobileLink">Skills</a>
             <a onClick={()=>setOpen(false)} href="#contact" className="mobileLink">Contact</a>
         </div>)}
     </div>

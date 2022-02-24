@@ -12,13 +12,14 @@ export default function Projects() {
       title: "Games",
     },
     {
+      id: "software",
+      title: "Software",
+    },
+    {
       id: "art",
       title: "Art",
     },
-    {
-      id: "software",
-      title: "Software",
-    }
+    
   ]
 
   useEffect(() => {
@@ -56,10 +57,13 @@ export default function Projects() {
       <div className="container">
         {data.map(d=>(
           <div className="item">
-            <img src={d.img} alt=""/>
-            <h3>{d.title}</h3>
-            <p>{d.desc}</p>
-            <p className="tools">{d.tools}</p>
+            <a href={d.link} target="_blank" rel="noopener noreferrer">
+              <img src={d.img} alt=""/>
+              <h3>{d.title}</h3>
+              <p className="date">{d.date}</p>
+              <p>{d.desc}</p>
+              <p className="tools">{d.tools}</p>
+            </a>
           </div>
         ))}
       </div>

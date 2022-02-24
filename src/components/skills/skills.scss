@@ -1,0 +1,100 @@
+@import "../../global.scss";
+
+.skills {
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+
+    h1 {
+        color: $mainColor;
+        font-family: 'ZCOOL QingKe HuangYou', cursive;
+        font-size: 70px;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 20px;
+
+        @include mobile {
+            margin-top: 10px;
+            font-size: 45px;
+        }
+
+        transition: all 100ms ease-in-out;
+        &:active {
+            color: black;
+        }
+    }
+
+    .techSkills {
+        margin-top: 20px;
+        background-color: $mainColor;
+        border-radius: 20px;
+        align-self: center;
+        width: 500px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+
+        @include mobile {
+            width: 70%;
+        }
+
+        h2 {
+            color: white;
+            width: fit-content;
+            align-self: center;
+            padding: 3px;
+            font-family: 'ZCOOL QingKe HuangYou', cursive;
+            font-size: 25px;
+            font-weight: 500;
+            text-align: center;
+            margin-bottom: 10px;
+            border-bottom: 3px solid white;
+
+            @include mobile {
+                font-size: 20px;
+            }
+        }
+
+        .skillSlot {
+            display: flex;
+            flex-direction: row;
+            height: auto;
+            align-content: center;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            p {
+                align-self: center;
+                background-color: white;
+                color: $mainColor;
+                margin: 8px;
+                padding: 12px;
+                border-radius: 15px;
+                width: fit-content;
+                height: fit-content;
+                font-family: 'ZCOOL QingKe HuangYou', cursive;
+                font-size: 28px;
+                transition: all 200ms ease-in-out;
+
+                @include mobile {
+                    font-size: 22px;
+                    margin: 5px;
+                    padding: 9px;
+                }
+    
+                &:hover {
+                    background-color: black;
+                    color: white;
+                }
+            }
+        }
+
+        
+    }
+
+    
+}

@@ -3,6 +3,7 @@ import Intro from "./components/intro/Intro";
 import Projects from "./components/projects/Projects";
 import Topbar from "./components/topbar/Topbar";
 import Gallery from "./components/gallery/Gallery";
+import Skills from "./components/skills/Skills"
 import Contact from "./components/contact/Contact";
 import "./app.scss"
 
@@ -14,7 +15,7 @@ function App() {
         <Splash/>
         <Intro/>
         <Projects/>
-        <Gallery/>
+        <Skills/>
         <Contact/>
       </div>
     </div>
