@@ -25,6 +25,11 @@
         font-family: 'ZCOOL QingKe HuangYou', cursive;
         font-size: 40px;
         font-weight: 500;
+
+        transition: all 100ms ease-in-out;
+            &:active {
+                color: black;
+            }
     }
 
     form {
@@ -65,6 +70,7 @@
             font-size: 14px;
             border: none;
             border-radius: 10px;
+            resize: none;
 
             &:focus {
                 outline: none;

@@ -27,6 +27,10 @@
                 color: inherit;
                 margin-right: 40px;
                 transition: all 100ms ease-in-out;
+
+                &:active {
+                    color: black;
+                }
             }
 
             .linksContainer {

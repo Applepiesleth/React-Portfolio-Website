@@ -1,4 +1,5 @@
 $mainColor: #d15249;
+$secondColor: #e08c47;
 
 $width: 860px;
 
@@ -6,4 +7,10 @@ $width: 860px;
     @media (max-width: #{$width}) {
         @content
     }
-}
+};
+
+@mixin desktop {
+    @media (min-width: #{$width}) {
+        @content
+    }
+};
