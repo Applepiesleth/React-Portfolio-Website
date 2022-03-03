@@ -41,7 +41,7 @@ export const artProjects = [
         img: "https://swebtoon-phinf.pstatic.net/20211113_167/16367378456001ifsc_PNG/thumbnail.jpg",
         title: "Warp Speed and Witchraft",
         date: "Ongoing",
-        desc: "A WEBTOON CANVAS slice-of-life webcomic about a witch boy and space explorer, updated weekly. Now has over 15K subs!",
+        desc: "A WEBTOON CANVAS slice-of-life webcomic about a witch boy and space explorer, updated weekly.",
         tools: "Clip Studio Paint",
         link: "https://www.webtoons.com/en/challenge/warp-speed-and-witchcraft/list?title_no=644747"
     },
@@ -59,11 +59,12 @@ export const artProjects = [
 export const softwareProjects = [
     {
         id: 1,
-        img: "https://upload.wikimedia.org/wikipedia/commons/4/49/A_black_image.jpg",
-        title: "WIP",
-        date: "Never",
-        desc: "???",
-        tools: "???",
+        img: "https://cdn.discordapp.com/attachments/708110962003017761/948852616635506769/bot.png",
+        title: "Phoebe and Demi Bot",
+        date: "Mar 2022",
+        desc: "A 24/7 Discord bot for a public server made using Discord.py, hosted on Cybera cloud services.",
+        tools: "Python, Cybera",
+        link: "https://github.com/Applepiesleth/PhoebeDemiBot"
     },
 ]
 

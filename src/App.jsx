@@ -14,8 +14,8 @@ function App() {
       <div className="sections">
         <Splash/>
         <Intro/>
-        <Projects/>
-        <Skills/>
+        <Projects className="filler"/>
+        <Skills className="filler"/>
         <Contact/>
       </div>
     </div>

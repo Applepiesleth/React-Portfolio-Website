@@ -15,13 +15,14 @@ export default function Contact() {
 
         <div className="right">
           <h2>Contact Me</h2>
-          <form onSubmit={handleSubmit}>
+          {/* <form onSubmit={handleSubmit}>
             <input type="text" placeholder="Email"/>
             <textarea placeholder="Message"></textarea>
             <button type="submit">Send</button>
             {message && <span>Message sent!</span>}
-          </form>
+          </form> */}
           
+          <h1><a href="mailto:ronanchr@ualberta.ca?">ronanchr@ualberta.ca</a></h1>
         </div>
     </div>
   )

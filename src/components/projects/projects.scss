@@ -35,7 +35,8 @@
         padding: 0;
         list-style: none;
         display: flex;
-        
+        flex-wrap: wrap;
+        justify-content: center;
         
         li {
             color: white;
@@ -87,6 +88,7 @@
         display: flex;
         justify-content:center;
         flex-wrap:wrap;
+        margin-bottom: 20px;
 
         scrollbar-width: none; //for firefox
         &::-webkit-scrollbar {
