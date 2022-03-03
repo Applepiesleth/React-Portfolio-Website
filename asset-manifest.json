@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.1b6dfec9.css",
-    "main.js": "/static/js/main.24ed4288.js",
+    "main.css": "/static/css/main.bf465d21.css",
+    "main.js": "/static/js/main.49e92bfb.js",
     "static/media/banff.png": "/static/media/banff.f283f3ea7eece1f831b7.png",
     "static/media/Ronan_Sandoval_Resume.pdf": "/static/media/Ronan_Sandoval_Resume.32227c3892afce015fcd.pdf",
     "index.html": "/index.html",
-    "main.1b6dfec9.css.map": "/static/css/main.1b6dfec9.css.map",
-    "main.24ed4288.js.map": "/static/js/main.24ed4288.js.map"
+    "main.bf465d21.css.map": "/static/css/main.bf465d21.css.map",
+    "main.49e92bfb.js.map": "/static/js/main.49e92bfb.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b6dfec9.css",
-    "static/js/main.24ed4288.js"
+    "static/css/main.bf465d21.css",
+    "static/js/main.49e92bfb.js"
   ]
 }
