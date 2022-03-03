@@ -26,13 +26,24 @@ export const gamesProjects = [
         tools: "Godot",
         link: "https://nosebleedplant.itch.io/odd-socks"
     },
-    // {
-    //     id: 4,
-    //     img: "https://img.itch.zone/aW1nLzc0NDM4NDEucG5n/347x500/17TIc9.png",
-    //     title: "30 Days",
-    //     desc: "A game about surviving the apocalypse... in 30 days!",
-    //     tools: "Unity",
-    // },
+    {
+        id: 4,
+        img: "https://img.itch.zone/aW1hZ2UvODE4MjA0LzQ1OTExMDAucG5n/347x500/bwMkGB.png",
+        title: "There's No I in Rhythm",
+        date: "Oct 2017",
+        desc: "A rhythm game developed in a 48 hour game jam in a group of 3 using Unity.",
+        tools: "Unity",
+        link: "https://applepiesleth.itch.io/theres-no-i-in-rhythm"
+    },
+    {
+        id: 5,
+        img: "https://img.itch.zone/aW1nLzc0NDM4NDEucG5n/347x500/17TIc9.png",
+        title: "30 Days",
+        date: "Oct 2017",
+        desc: "A game developed solo for a 72 hour game jam using Unity.",
+        tools: "Unity",
+        link: "https://applepiesleth.itch.io/30-days"
+    },
 ]
 
 export const artProjects = [
