@@ -13,6 +13,7 @@ export default function Gallery() {
           <p>C#</p>
           <p>Matlab</p>
           <p>SQL</p>
+          <p>MongoDB</p>
           <p>HTML/CSS</p>
           <p>Javascript</p>
         </div>
@@ -28,6 +29,7 @@ export default function Gallery() {
           <p>Godot</p>
           <p>Android Studio</p>
           <p>Firebase</p>
+          <p>Cybera</p>
         </div>
         <h2>Other</h2>
         <div className="skillSlot">

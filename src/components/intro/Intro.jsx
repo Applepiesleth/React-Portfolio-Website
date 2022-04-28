@@ -15,7 +15,9 @@ export default function Intro() {
                 <a href="https://www.linkedin.com/in/ronansandoval/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="icon"/></a>
             </div>
         </div>
-        <div className="right"></div>
+        <div className="right">
+            <img src="https://cdn.discordapp.com/attachments/708110962003017761/952409924212781096/aboutme.gif" alt="hello!"></img>
+        </div>
         
         
     </div>

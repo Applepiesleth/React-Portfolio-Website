@@ -30,7 +30,7 @@ export const gamesProjects = [
         id: 4,
         img: "https://img.itch.zone/aW1hZ2UvODE4MjA0LzQ1OTExMDAucG5n/347x500/bwMkGB.png",
         title: "There's No I in Rhythm",
-        date: "Oct 2017",
+        date: "Nov 2020",
         desc: "A rhythm game developed in a 48 hour game jam in a group of 3 using Unity.",
         tools: "Unity",
         link: "https://applepiesleth.itch.io/theres-no-i-in-rhythm"
@@ -76,6 +76,24 @@ export const softwareProjects = [
         desc: "A 24/7 Discord bot for a public server made using Discord.py, hosted on Cybera cloud services.",
         tools: "Python, Cybera",
         link: "https://github.com/Applepiesleth/PhoebeDemiBot"
+    },
+    {
+        id: 2,
+        img: "https://cdn.discordapp.com/attachments/928209528850382891/955547224522227773/logo2.png",
+        title: "QR Rangers",
+        date: "April 2022",
+        desc: "An Android Application for collecting QR Codes using Android Studio with Java and Google Firebase.",
+        tools: "Android Studio, Java, Google Firebase",
+        link: "https://github.com/CMPUT301W22T10/QR-Rangers"
+    },
+    {
+        id: 3,
+        img: "https://cdn.discordapp.com/attachments/708110962003017761/969159882899079208/unknown.png",
+        title: "Softbody Cloth",
+        date: "April 2022",
+        desc: "Implementation and rendering of a Spring-Mass softbody cloth, with generation from images.",
+        tools: "WebGl, JS, HTML",
+        link: "https://github.com/Applepiesleth/CMPUT-414-Cloth-Simulation"
     },
 ]
 
