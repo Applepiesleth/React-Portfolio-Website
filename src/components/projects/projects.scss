@@ -141,20 +141,24 @@
                 font-weight: 600;
             }
 
-            img {
-                width: 220px;
-                height: 200px;
-                border-radius: 15px;
-                object-fit:cover;
-                transition: all 200ms ease-in-out;
-                
-
-                @include mobile {
-                    width: 140px;
-                    height: 140px;
+            .imgblock {
+                img {
+                    width: 220px;
+                    height: 200px;
+                    border-radius: 15px;
+                    object-fit:cover;
+                    transition: all 200ms ease-in-out;
+                    
+    
+                    @include mobile {
+                        width: 140px;
+                        height: 140px;
+                    }
+    
                 }
 
             }
+            
 
             @include mobile {
                 width: 140px;

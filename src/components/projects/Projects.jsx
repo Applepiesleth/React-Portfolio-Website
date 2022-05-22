@@ -58,7 +58,9 @@ export default function Projects() {
         {data.map(d=>(
           <div className="item">
             <a href={d.link} target="_blank" rel="noopener noreferrer">
-              <img src={d.img} alt=""/>
+              <div className="imgblock">
+                <img src={d.img} alt=""/>
+              </div>
               <h3>{d.title}</h3>
               <p className="date">{d.date}</p>
               <p>{d.desc}</p>

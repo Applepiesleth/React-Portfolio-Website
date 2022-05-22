@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .contact{
-    background-color: $mainColor;
+    background-color: $secondColor;
     display: flex;
 
     @include mobile {
@@ -29,7 +29,7 @@
             transition: all 100ms ease-in-out;
 
             &:hover {
-                background-color: #913b35;
+                background-color: rgb(24, 24, 24);
             }
 
             @include mobile {

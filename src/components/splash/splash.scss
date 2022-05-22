@@ -3,8 +3,11 @@
 .splash {
     //background-image: url('http://i.stack.imgur.com/kx8MT.gif');
     background-image: url("../../images/banff.png");
+    background-color: $secondColor;
+    background-blend-mode:luminosity;
     background-position: center;
-    align-items: center;
+    background-size:cover;
+    align-items: center; 
     display:flex;
 
 
@@ -30,7 +33,7 @@
         resize: both;
         overflow: auto;
         border-radius: 50px;
-        opacity: 0.93;
+        opacity: 0.96;
         transition: all 200ms ease-in-out;
         resize: inherit;
 

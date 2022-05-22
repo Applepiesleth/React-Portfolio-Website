@@ -11,7 +11,7 @@ export default function Intro() {
             <div className="iconList">
                 <a href="https://github.com/Applepiesleth" target="_blank" rel="noopener noreferrer"><FaGithub className="icon"/></a>
                 <a href="https://applepiesleth.itch.io/" target="_blank" rel="noopener noreferrer"><FaItchIo className="icon"/></a>
-                <a href="https://twitter.com/applepiesleth" target="_blank" rel="noopener noreferrer"><FaPaintBrush className="icon"/></a>
+                <a href="https://applepiesleth.carrd.co/" target="_blank" rel="noopener noreferrer"><FaPaintBrush className="icon"/></a>
                 <a href="https://www.linkedin.com/in/ronansandoval/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="icon"/></a>
             </div>
         </div>
