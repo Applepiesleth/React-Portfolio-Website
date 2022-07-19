@@ -7,7 +7,7 @@ export default function Splash() {
         <div className="box">
           <h1>Ronan Sandoval</h1>
           <h2>Software Dev · Game Dev · Digital Art</h2>
-          <a href = {Pdf} target = "_blank">View My Resume</a>
+          <a href = "#projects">View My Projects</a>
         </div>
     </div>
   )

@@ -63,7 +63,7 @@ export default function Projects() {
               </div>
               <h3>{d.title}</h3>
               <p className="date">{d.date}</p>
-              <p>{d.desc}</p>
+              <p className="desc">{d.desc}</p>
               <p className="tools">{d.tools}</p>
             </a>
           </div>
