@@ -71,6 +71,11 @@ body {
     color: black;
 }
 
+.titlebox img {
+    max-height: 250px;
+    max-width: 100%;
+}
+
 h1 {
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     font-size: 100px;
@@ -113,6 +118,7 @@ h1 {
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap:wrap-reverse;
     justify-content:space-around;
     font-weight: 300;
     background-color: #d15249;
@@ -134,16 +140,74 @@ h1 {
 
 .infotext {
     max-width: 50%;
+    min-width: 300px;
     text-align: left;
     margin: 20px;
 }
 
 .details {
     margin: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.details h2 {
+    margin: 20px;
+    margin-top: 80px;
+    font-size: 40px;
+}
+
+.detailstext {
+    margin: 20px;
+    max-width: 1200px;
+    font-size: 20px;
+}
+
+.toolList {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #d15249;
+    font-weight: 500;
+    margin-top: 20px;
+    
+}
+
+.tool {
+    background-color: white;
+    width:fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    margin:10px
+}
+
+iframe {
+    border-radius: 20px;
+    max-width: 90%;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    gap: 30px;
+}
+
+.horizontal img {
+    max-height: 500px;
+    max-width: 100%;
+    border-radius: 20px;
+    object-fit:contain;
 }
 
 @media only screen and (max-width: 700px) {
     .infotext {
-        font-size: 15px;
+        max-width: 100%;
     }
 }
