@@ -33,7 +33,7 @@ export const gamesProjects = [
         date: "Nov 2020",
         desc: "A rhythm game developed in a 48 hour game jam in a group of 3 using Unity.",
         tools: "Unity",
-        link: "https://applepiesleth.itch.io/theres-no-i-in-rhythm"
+        link: "rhythm.html"
     },
     {
         id: 5,
@@ -42,8 +42,8 @@ export const gamesProjects = [
         date: "Oct 2017",
         desc: "A game developed solo for a 72 hour game jam using Unity.",
         tools: "Unity",
-        link: "https://applepiesleth.itch.io/30-days"
-    },
+        link: "30-days.html"
+    }
 ]
 
 export const artProjects = [
@@ -54,7 +54,7 @@ export const artProjects = [
         date: "Ongoing",
         desc: "A WEBTOON CANVAS slice-of-life webcomic about a witch boy and space explorer, updated weekly.",
         tools: "Clip Studio Paint",
-        link: "https://www.webtoons.com/en/challenge/warp-speed-and-witchcraft/list?title_no=644747"
+        link: "warp-speed-and-witchcraft.html"
     },
     // {
     //     id: 2,
@@ -75,7 +75,7 @@ export const softwareProjects = [
         date: "Mar 2022",
         desc: "A 24/7 Discord bot for a public server made using Discord.py, hosted on Cybera cloud services.",
         tools: "Python, Cybera",
-        link: "https://github.com/Applepiesleth/PhoebeDemiBot"
+        link: "phoebe-and-demi.html"
     },
     {
         id: 2,
@@ -84,7 +84,7 @@ export const softwareProjects = [
         date: "April 2022",
         desc: "An Android Application for collecting QR Codes using Android Studio with Java and Google Firebase.",
         tools: "Android Studio, Java, Google Firebase",
-        link: "https://github.com/CMPUT301W22T10/QR-Rangers"
+        link: "qr-rangers.html"
     },
     {
         id: 3,
@@ -93,7 +93,7 @@ export const softwareProjects = [
         date: "April 2022",
         desc: "Implementation and rendering of a Spring-Mass softbody cloth, with generation from images.",
         tools: "WebGl, JS, HTML",
-        link: "https://github.com/Applepiesleth/CMPUT-414-Cloth-Simulation"
+        link: "softbody-cloth.html"
     },
 ]
 
