@@ -15,7 +15,7 @@ export const gamesProjects = [
         date: "Nov 2021",
         desc: "An arcade game developed solo for a 48 hour game jam. My first time using Godot and 3D!",
         tools: "Godot",
-        link: "https://applepiesleth.itch.io/outback-outrun"
+        link: "outback-outrun.html"
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ export const gamesProjects = [
         date: "Jan 2022",
         desc: "A puzzle platformer developed in a team of 4 for Global Game Jam.",
         tools: "Godot",
-        link: "https://nosebleedplant.itch.io/odd-socks"
+        link: "odd-socks.html"
     },
     {
         id: 4,

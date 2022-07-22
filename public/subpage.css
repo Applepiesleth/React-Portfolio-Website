@@ -116,6 +116,7 @@ h1 {
 .infobox {
     height: fit-content;
     display: flex;
+    width: 100%;
     flex-direction: row;
     align-items: center;
     flex-wrap:wrap-reverse;
@@ -166,6 +167,12 @@ h1 {
     font-size: 20px;
 }
 
+.detailstext a{
+    color: #d15249;
+    font-weight: 500;
+    text-decoration: none;
+}
+
 .toolList {
     display: flex;
     flex-direction: row;
@@ -196,18 +203,24 @@ iframe {
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 20px;
-    gap: 30px;
+    gap: 20px;
 }
 
 .horizontal img {
-    max-height: 500px;
-    max-width: 100%;
+    /* max-height: 500px; */
+    max-width: 450px;
     border-radius: 20px;
-    object-fit:contain;
+    object-fit:cover;
 }
 
 @media only screen and (max-width: 700px) {
     .infotext {
         max-width: 100%;
+    }
+
+    .horizontal img {
+        /* max-height: 500px; */
+        max-width: 90%;
+        min-width: 300px;
     }
 }
