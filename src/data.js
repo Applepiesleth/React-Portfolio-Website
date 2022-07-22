@@ -6,7 +6,7 @@ export const gamesProjects = [
         date: "Apr 2021",
         desc: "A minigame-based game developed over 4 months as a school project. Nominee for CMPUT 250 Game of the Year! ",
         tools: "RPG Maker",
-        link: "https://luther1.itch.io/fallen"
+        link: "fallen.html"
     },
     {
         id: 2,

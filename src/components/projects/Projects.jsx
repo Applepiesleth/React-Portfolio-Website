@@ -57,7 +57,7 @@ export default function Projects() {
       <div className="container">
         {data.map(d=>(
           <div className="item">
-            <a href={d.link} target="_blank" rel="noopener noreferrer">
+            <a href={d.link} rel="noopener noreferrer">
               <div className="imgblock">
                 <img src={d.img} alt=""/>
               </div>
@@ -72,3 +72,5 @@ export default function Projects() {
     </div>
   )
 }
+
+// target="_blank"
