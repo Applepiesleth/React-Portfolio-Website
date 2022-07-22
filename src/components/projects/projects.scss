@@ -89,6 +89,7 @@
         justify-content:center;
         flex-wrap:wrap;
         margin-bottom: 20px;
+        overflow: hidden;
 
         scrollbar-width: none; //for firefox
         &::-webkit-scrollbar {
@@ -107,7 +108,14 @@
             margin: 10px 20px;
             transition: all 200ms ease-in-out;
             flex-wrap:wrap;
+            overflow: hidden;
             cursor: pointer;
+
+            scrollbar-width: none; //for firefox
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
 
             a {
                 text-decoration: none;
@@ -174,12 +182,7 @@
 
             }
 
-            @media (pointer:none), (pointer:coarse) {
-                height: fit-content;
-                .desc{
-                    color: black;
-                }
-            }
+            
             
             @include desktop {
                 &:hover .desc{
@@ -192,7 +195,23 @@
                     
                 }
             }
+
+            @media (pointer:none), (pointer:coarse) {
+                height: fit-content;
+                .desc{
+                    color: black;
+                }
+
+                &:hover img{
+                    height: 250px;
+                }
+            }
             
         }
+    }
+
+    .help {
+        color: white;
+        margin:15px;
     }
 }

@@ -16,7 +16,7 @@ export default function Intro() {
             </div>
         </div>
         <div className="right">
-            <img src="https://cdn.discordapp.com/attachments/708110962003017761/952409924212781096/aboutme.gif" alt="hello!"></img>
+            <img src="./images/aboutme.gif" alt="hello!"></img>
         </div>
         
         

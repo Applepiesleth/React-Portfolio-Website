@@ -1,7 +1,7 @@
 import "./projects.scss"
 import { ProjectList } from "./ProjectList"
 import { useEffect, useState } from 'react';
-import { gamesProjects, artProjects, softwareProjects } from "../../data";
+import { gamesProjects, artProjects, softwareProjects } from "./data";
 
 export default function Projects() {
   const [selected, setSelected] = useState("games")
@@ -43,6 +43,7 @@ export default function Projects() {
   return (
     <div className="projects" id="projects">
       <h1>Projects</h1>
+      <div class="help"> Click on a project to see more information </div>
       <ul>
         {list.map(item=>(
           <ProjectList
@@ -57,7 +58,7 @@ export default function Projects() {
       <div className="container">
         {data.map(d=>(
           <div className="item">
-            <a href={d.link} target="_blank" rel="noopener noreferrer">
+            <a href={d.link} rel="noopener noreferrer">
               <div className="imgblock">
                 <img src={d.img} alt=""/>
               </div>
@@ -72,3 +73,5 @@ export default function Projects() {
     </div>
   )
 }
+
+// target="_blank"
