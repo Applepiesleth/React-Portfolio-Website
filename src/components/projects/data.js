@@ -43,6 +43,15 @@ export const gamesProjects = [
         desc: "A game developed solo for a 72 hour game jam using Unity.",
         tools: "Unity",
         link: "30-days.html"
+    },
+    {
+        id: 6,
+        img: "./images/fairnessfarm.png",
+        title: "Fairness Farm",
+        date: "Aug 2022",
+        desc: "A game-based learning approach for teaching concepts of Fairness in AI.",
+        tools: "Unity",
+        link: "fairnessfarm.html"
     }
 ]
 
