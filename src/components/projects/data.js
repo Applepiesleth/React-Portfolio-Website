@@ -1,12 +1,12 @@
-export const gamesProjects = [
+export const featuredProjects = [
     {
         id: 1,
-        img: "./images/fallen.png",
-        title: "Fallen",
-        date: "Apr 2021",
-        desc: "A minigame-based game developed over 4 months as a school project. Nominee for CMPUT 250 Game of the Year! ",
-        tools: "RPG Maker",
-        link: "fallen.html"
+        img: "./images/dungeons.png",
+        title: "Bite-Sized Dungeons",
+        date: "Nov 2022",
+        desc: "Procedurally Generated Permadeath Dungeon-Crawler!",
+        tools: "Unity",
+        link: "dungeons"
     },
     {
         id: 2,
@@ -15,68 +15,125 @@ export const gamesProjects = [
         date: "Nov 2021",
         desc: "An arcade game developed solo for a 48 hour game jam. My first time using Godot and 3D!",
         tools: "Godot",
-        link: "outback-outrun.html"
+        link: "outback-outrun"
     },
     {
         id: 3,
+        img: "./images/cloth.png",
+        title: "Softbody Cloth",
+        date: "Apr 2022",
+        desc: "Implementation and rendering of a Spring-Mass softbody cloth, with generation from images.",
+        tools: "WebGl, JS, HTML",
+        link: "softbody-cloth"
+    },
+    {
+        id: 4,
+        img: "./images/classmates.png",
+        title: "ClassMATES",
+        date: "Sep 2022",
+        desc: "Upload your class schedule and find study partners with similar schedules",
+        tools: "Django, React",
+        link: "classmates"
+    },
+    {
+        id: 5,
+        img: "./images/fallen.png",
+        title: "Fallen",
+        date: "Apr 2021",
+        desc: "A minigame-based game developed over 4 months as a school project. Nominee for CMPUT 250 Game of the Year! ",
+        tools: "RPG Maker",
+        link: "fallen"
+    },
+]
+
+export const gamesProjects = [
+    {
+        id: 1,
+        img: "./images/fallen.png",
+        title: "Fallen",
+        date: "Apr 2021",
+        desc: "A minigame-based game developed over 4 months as a school project. Nominee for CMPUT 250 Game of the Year! ",
+        tools: "RPG Maker",
+        link: "fallen"
+    },
+    {
+        id: 2,
+        img: "./images/dungeons.png",
+        title: "Bite-Sized Dungeons",
+        date: "Nov 2022",
+        desc: "Procedurally Generated Permadeath Dungeon-Crawler!",
+        tools: "Unity",
+        link: "dungeons"
+    },
+    {
+        id: 3,
+        img: "./images/emu.png",
+        title: "Outback Outrun",
+        date: "Nov 2021",
+        desc: "An arcade game developed solo for a 48 hour game jam. My first time using Godot and 3D!",
+        tools: "Godot",
+        link: "outback-outrun"
+    },
+    {
+        id: 4,
         img: "./images/socks.png",
         title: "Odd Socks",
         date: "Jan 2022",
         desc: "A puzzle platformer developed in a team of 4 for Global Game Jam.",
         tools: "Godot",
-        link: "odd-socks.html"
+        link: "odd-socks"
     },
     {
-        id: 4,
+        id: 5,
         img: "./images/rhythm.png",
         title: "There's No I in Rhythm",
         date: "Nov 2020",
         desc: "A rhythm game developed in a 48 hour game jam in a group of 3 using Unity.",
         tools: "Unity",
-        link: "rhythm.html"
+        link: "rhythm"
     },
     {
-        id: 5,
+        id: 6,
         img: "./images/30.png",
         title: "30 Days",
         date: "Oct 2017",
         desc: "A game developed solo for a 72 hour game jam using Unity.",
         tools: "Unity",
-        link: "30-days.html"
+        link: "30-days"
     },
     {
-        id: 6,
+        id: 7,
         img: "./images/fairnessfarm.png",
         title: "Fairness Farm",
         date: "Aug 2022",
         desc: "A game-based learning approach for teaching concepts of Fairness in AI.",
         tools: "Unity",
-        link: "fairnessfarm.html"
+        link: "fairnessfarm"
     }
 ]
 
-export const artProjects = [
+export const appProjects = [
     {
         id: 1,
-        img: "./images/wsaw.png",
-        title: "Warp Speed and Witchraft",
-        date: "Ongoing",
-        desc: "A WEBTOON CANVAS slice-of-life webcomic about a witch boy and space explorer, updated weekly.",
-        tools: "Clip Studio Paint",
-        link: "warp-speed-and-witchcraft.html"
+        img: "./images/rangers.png",
+        title: "QR Rangers",
+        date: "Apr 2022",
+        desc: "An Android Application for collecting QR Codes using Android Studio with Java and Google Firebase.",
+        tools: "Android Studio, Java, Google Firebase",
+        link: "qr-rangers"
     },
-    // {
-    //     id: 2,
-    //     img: "https://pbs.twimg.com/media/E9MXSNeVgAQAT12?format=jpg&name=900x900",
-    //     title: "Commissions",
-    //     date: "",
-    //     desc: "I take commissions!",
-    //     tools: "",
-    //     link: "#projects"
-    // },
+    {
+        id: 2,
+        img: "./images/classmates.png",
+        title: "ClassMATES",
+        date: "Sep 2022",
+        desc: "Upload your class schedule and find study partners with similar schedules",
+        tools: "Django, React",
+        link: "classmates"
+    },
 ]
 
-export const softwareProjects = [
+export const otherProjects = [
     {
         id: 1,
         img: "./images/phoebe.png",
@@ -84,25 +141,15 @@ export const softwareProjects = [
         date: "Mar 2022",
         desc: "A 24/7 Discord bot for a public server made using Discord.py, hosted on Cybera cloud services.",
         tools: "Python, Cybera",
-        link: "phoebe-and-demi.html"
+        link: "phoebe-and-demi"
     },
     {
         id: 2,
-        img: "./images/rangers.png",
-        title: "QR Rangers",
-        date: "April 2022",
-        desc: "An Android Application for collecting QR Codes using Android Studio with Java and Google Firebase.",
-        tools: "Android Studio, Java, Google Firebase",
-        link: "qr-rangers.html"
-    },
-    {
-        id: 3,
         img: "./images/cloth.png",
         title: "Softbody Cloth",
-        date: "April 2022",
+        date: "Apr 2022",
         desc: "Implementation and rendering of a Spring-Mass softbody cloth, with generation from images.",
         tools: "WebGl, JS, HTML",
-        link: "softbody-cloth.html"
+        link: "softbody-cloth"
     },
 ]
-

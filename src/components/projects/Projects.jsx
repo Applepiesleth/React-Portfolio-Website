@@ -1,25 +1,28 @@
 import "./projects.scss"
 import { ProjectList } from "./ProjectList"
 import { useEffect, useState } from 'react';
-import { gamesProjects, artProjects, softwareProjects } from "./data";
+import { gamesProjects, featuredProjects, appProjects , otherProjects} from "./data";
 
 export default function Projects() {
-  const [selected, setSelected] = useState("games")
+  const [selected, setSelected] = useState("featured")
   const [data, setData] = useState([])
   const list = [
+    {
+      id: "featured",
+      title: "Featured",
+    },
     {
       id: "games",
       title: "Games",
     },
     {
-      id: "software",
-      title: "Software",
+      id: "apps",
+      title: "Apps",
     },
     {
-      id: "art",
-      title: "Art",
+      id: "other",
+      title: "Other",
     },
-    
   ]
 
   useEffect(() => {
@@ -28,12 +31,15 @@ export default function Projects() {
       case "games":
         setData(gamesProjects);
         break;
-      case "art":
-        setData(artProjects);
+      case "featured":
+        setData(featuredProjects);
         break;
-      case "software":
-        setData(softwareProjects);
+      case "apps":
+        setData(appProjects);
         break;
+      case "other":
+          setData(otherProjects);
+          break;
       default:
         setData(gamesProjects);
     }

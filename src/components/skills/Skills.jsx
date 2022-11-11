@@ -15,13 +15,14 @@ export default function Gallery() {
           <p>SQL</p>
           <p>MongoDB</p>
           <p>HTML/CSS</p>
-          <p>Javascript</p>
+          <p>JS/TS</p>
         </div>
         <h2>Libraries / APIs / Frameworks</h2>
         <div className="skillSlot">
           <p>WebGL</p>
           <p>PyTorch</p>
           <p>React</p>
+          <p>Django</p>
         </div>
         <h2>Software / Game Dev</h2>
         <div className="skillSlot">

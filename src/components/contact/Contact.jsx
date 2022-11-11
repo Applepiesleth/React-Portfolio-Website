@@ -11,8 +11,9 @@ export default function Contact() {
 
   return (
     <div className='contact' id="contact">
-        <div className="left"></div>
-
+        <div className="left">
+          <img src="./images/plants.png" alt="plants"></img>
+        </div>
         <div className="right">
           <h2>Contact Me</h2>
           {/* <form onSubmit={handleSubmit}>
