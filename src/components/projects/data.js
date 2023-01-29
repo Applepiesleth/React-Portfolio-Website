@@ -28,12 +28,12 @@ export const featuredProjects = [
     },
     {
         id: 4,
-        img: "./images/classmates.png",
-        title: "ClassMATES",
-        date: "Sep 2022",
-        desc: "Upload your class schedule and find study partners with similar schedules",
-        tools: "Django, React",
-        link: "classmates"
+        img: "./images/ulearnify/ulearnify.jpg",
+        title: "uLearnify Measurement",
+        date: "Dec 2022",
+        desc: "Curriculum-based measurement webapp made for remedial literacy teachers.",
+        tools: "React, TS, NodeJS, PostgreSQL, Cybera",
+        link: "ulearnify"
     },
     {
         id: 5,
@@ -115,6 +115,15 @@ export const gamesProjects = [
 export const appProjects = [
     {
         id: 1,
+        img: "./images/ulearnify/ulearnify.jpg",
+        title: "uLearnify Measurement",
+        date: "Dec 2022",
+        desc: "Curriculum-based measurement webapp made for remedial literacy teachers.",
+        tools: "React, TS, NodeJS, PostgreSQL, Cybera",
+        link: "ulearnify"
+    },
+    {
+        id: 2,
         img: "./images/rangers.png",
         title: "QR Rangers",
         date: "Apr 2022",
@@ -123,7 +132,7 @@ export const appProjects = [
         link: "qr-rangers"
     },
     {
-        id: 2,
+        id: 3,
         img: "./images/classmates.png",
         title: "ClassMATES",
         date: "Sep 2022",
