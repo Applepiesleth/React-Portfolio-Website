@@ -116,6 +116,18 @@
                 display: none;
             }
 
+            @media (max-width: 700px) { 
+                width: 80%;
+                min-width: 200px;
+                height: fit-content;
+                border: 5px solid white;
+
+                .desc{
+                    color: black;
+                }
+
+            }
+
 
             a {
                 text-decoration: none;
@@ -153,14 +165,14 @@
 
             .imgblock {
                 img {
+                    object-fit: cover;
                     width: 220px;
                     height: 250px;
                     border-radius: 15px;
-                    object-fit:cover;
                     transition: all 200ms ease-in-out;
                     
     
-                    @include mobile {
+                    @media (max-width: 700px) { 
                         width: 100%;
                         height: 140px;
                     }
@@ -169,18 +181,6 @@
 
             }
             
-
-            @include mobile {
-                width: 30%;
-                min-width: 200px;
-                height: fit-content;
-                border: 5px solid white;
-
-                .desc{
-                    color: black;
-                }
-
-            }
 
             
             

@@ -1,21 +1,30 @@
 export const featuredProjects = [
     {
         id: 1,
+        img: "./images/aspen.png",
+        title: "For Aspen",
+        date: "May 2023",
+        desc: "A beautiful 3D adventure game where you explore your own mindscape! Lots of shaders and post-processing!",
+        tools: "Unity",
+        link: "for-aspen"
+    },
+    {
+        id: 5,
+        img: "./images/vault.png",
+        title: "Within the Vault",
+        date: "Apr 2023",
+        desc: "A noir action roguelike developed over 4 months as a capstone project. Winner of INT D 450 Best Gameplay!",
+        tools: "Godot",
+        link: "within-the-vault"
+    },
+    {
+        id: 2,
         img: "./images/dungeons.png",
         title: "Bite-Sized Dungeons",
         date: "Nov 2022",
         desc: "Procedurally Generated Permadeath Dungeon-Crawler!",
         tools: "Unity",
         link: "dungeons"
-    },
-    {
-        id: 2,
-        img: "./images/emu.png",
-        title: "Outback Outrun",
-        date: "Nov 2021",
-        desc: "An arcade game developed solo for a 48 hour game jam. My first time using Godot and 3D!",
-        tools: "Godot",
-        link: "outback-outrun"
     },
     {
         id: 3,
@@ -35,20 +44,29 @@ export const featuredProjects = [
         tools: "React, TS, NodeJS, PostgreSQL, Cybera",
         link: "ulearnify"
     },
-    {
-        id: 5,
-        img: "./images/fallen.png",
-        title: "Fallen",
-        date: "Apr 2021",
-        desc: "A minigame-based game developed over 4 months as a school project. Nominee for CMPUT 250 Game of the Year! ",
-        tools: "RPG Maker",
-        link: "fallen"
-    },
 ]
 
 export const gamesProjects = [
     {
         id: 1,
+        img: "./images/aspen.png",
+        title: "For Aspen",
+        date: "May 2023",
+        desc: "A beautiful 3D adventure game where you explore your own mindscape! Lots of shaders and post-processing!",
+        tools: "Unity",
+        link: "for-aspen"
+    },
+    {
+        id: 2,
+        img: "./images/vault.png",
+        title: "Within the Vault",
+        date: "Apr 2023",
+        desc: "A noir action roguelike developed over 4 months as a capstone project. Winner of INT D 450 Best Gameplay!",
+        tools: "Godot",
+        link: "within-the-vault"
+    },
+    {
+        id: 3,
         img: "./images/fallen.png",
         title: "Fallen",
         date: "Apr 2021",
@@ -57,7 +75,7 @@ export const gamesProjects = [
         link: "fallen"
     },
     {
-        id: 2,
+        id: 4,
         img: "./images/dungeons.png",
         title: "Bite-Sized Dungeons",
         date: "Nov 2022",
@@ -66,7 +84,7 @@ export const gamesProjects = [
         link: "dungeons"
     },
     {
-        id: 3,
+        id: 5,
         img: "./images/emu.png",
         title: "Outback Outrun",
         date: "Nov 2021",
@@ -75,7 +93,7 @@ export const gamesProjects = [
         link: "outback-outrun"
     },
     {
-        id: 4,
+        id: 6,
         img: "./images/socks.png",
         title: "Odd Socks",
         date: "Jan 2022",
@@ -84,7 +102,7 @@ export const gamesProjects = [
         link: "odd-socks"
     },
     {
-        id: 5,
+        id: 7,
         img: "./images/rhythm.png",
         title: "There's No I in Rhythm",
         date: "Nov 2020",
@@ -93,7 +111,7 @@ export const gamesProjects = [
         link: "rhythm"
     },
     {
-        id: 6,
+        id: 8,
         img: "./images/30.png",
         title: "30 Days",
         date: "Oct 2017",
@@ -102,7 +120,7 @@ export const gamesProjects = [
         link: "30-days"
     },
     {
-        id: 7,
+        id: 9,
         img: "./images/fairnessfarm.png",
         title: "Fairness Farm",
         date: "Aug 2022",
