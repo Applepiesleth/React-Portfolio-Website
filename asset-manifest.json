@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.3b977e9a.css",
-    "main.js": "/static/js/main.7c4aeb29.js",
+    "main.css": "/static/css/main.badf2cca.css",
+    "main.js": "/static/js/main.331f2d12.js",
     "static/media/Chill.gif": "/static/media/Chill.9c799789b30efe063263.gif",
     "static/media/Ronan_Sandoval_Resume.pdf": "/static/media/Ronan_Sandoval_Resume.b73dec80bef0e2188372.pdf",
     "index.html": "/index.html",
-    "main.3b977e9a.css.map": "/static/css/main.3b977e9a.css.map",
-    "main.7c4aeb29.js.map": "/static/js/main.7c4aeb29.js.map"
+    "main.badf2cca.css.map": "/static/css/main.badf2cca.css.map",
+    "main.331f2d12.js.map": "/static/js/main.331f2d12.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b977e9a.css",
-    "static/js/main.7c4aeb29.js"
+    "static/css/main.badf2cca.css",
+    "static/js/main.331f2d12.js"
   ]
 }
