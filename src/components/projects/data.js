@@ -1,6 +1,15 @@
 export const featuredProjects = [
     {
         id: 1,
+        img: "./images/ulearnify/ulearnify.jpg",
+        title: "uLearnify Measurement",
+        date: "Dec 2022",
+        desc: "Curriculum-based measurement webapp made for remedial literacy teachers.",
+        tools: "React, TS, NodeJS, PostgreSQL, Cybera",
+        link: "ulearnify"
+    },
+    {
+        id: 2,
         img: "./images/aspen.png",
         title: "For Aspen",
         date: "May 2023",
@@ -9,7 +18,7 @@ export const featuredProjects = [
         link: "for-aspen"
     },
     {
-        id: 5,
+        id: 3,
         img: "./images/vault.png",
         title: "Within the Vault",
         date: "Apr 2023",
@@ -18,7 +27,7 @@ export const featuredProjects = [
         link: "within-the-vault"
     },
     {
-        id: 2,
+        id: 4,
         img: "./images/dungeons.png",
         title: "Bite-Sized Dungeons",
         date: "Nov 2022",
@@ -27,7 +36,7 @@ export const featuredProjects = [
         link: "dungeons"
     },
     {
-        id: 3,
+        id: 5,
         img: "./images/cloth.png",
         title: "Softbody Cloth",
         date: "Apr 2022",
@@ -35,15 +44,7 @@ export const featuredProjects = [
         tools: "WebGl, JS, HTML",
         link: "softbody-cloth"
     },
-    {
-        id: 4,
-        img: "./images/ulearnify/ulearnify.jpg",
-        title: "uLearnify Measurement",
-        date: "Dec 2022",
-        desc: "Curriculum-based measurement webapp made for remedial literacy teachers.",
-        tools: "React, TS, NodeJS, PostgreSQL, Cybera",
-        link: "ulearnify"
-    },
+    
 ]
 
 export const gamesProjects = [

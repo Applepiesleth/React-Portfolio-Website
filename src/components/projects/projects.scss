@@ -8,7 +8,7 @@
 
     h1 {
         margin-top: 2%;
-        font-family: 'ZCOOL QingKe HuangYou', cursive;
+        font-family: 'Squada One', cursive;
         text-align: center;
         font-size: 70px;
         font-weight: 500;
@@ -84,12 +84,15 @@
     }
 
     .container {
-        width:fit-content;
+        width: 90%;
+        min-width: 400px;
         display: flex;
         justify-content:center;
         flex-wrap:wrap;
         margin-bottom: 20px;
         overflow: hidden;
+        flex-direction: column;
+        align-items: center;
 
         scrollbar-width: none; //for firefox
         &::-webkit-scrollbar {
@@ -97,12 +100,12 @@
         }
         
         .item {
-            width: 220px;
-            height: 320px;
+            width: 70%;
+            height: 200px;
             border-radius: 20px;
             background: white;
             display: flex;
-            flex-direction: column;
+            flex-direction:row;
             border: 8px solid white;
             align-items: center;
             margin: 10px 20px;
@@ -116,15 +119,15 @@
                 display: none;
             }
 
+            .desc{
+                color: black;
+            }
+
             @media (max-width: 700px) { 
                 width: 80%;
                 min-width: 200px;
                 height: fit-content;
                 border: 5px solid white;
-
-                .desc{
-                    color: black;
-                }
 
             }
 
@@ -132,18 +135,21 @@
             a {
                 text-decoration: none;
                 color: inherit;
+                display: flex;
+                flex-direction:row;
             }
 
             h3 {
                 margin-top: 12px;
-                font-size: 22px;
-                font-family: 'ZCOOL QingKe HuangYou', cursive;
-                text-align: center;
+                font-size: 30px;
+                font-family: 'Squada One', cursive;
+                text-align: left;
+                transition: all 200ms ease-in-out;
             }
 
             p {
-                margin: 10px;
-                text-align: center;
+                margin-bottom: 12px;
+                text-align: left;
                 font-size: 15px;
                 color: transparent;
                 transition: all 200ms ease-in-out;
@@ -154,20 +160,27 @@
             }
 
             .tools {
-                margin: 0px;
                 color: gray;
             }
 
             .date {
                 color: $mainColor;
                 font-weight: 600;
+                margin-top: 5px;
+            }
+
+            .textblock {
+                width:  500px;
             }
 
             .imgblock {
+                margin: 5px;
+                margin-right: 20px;
                 img {
                     object-fit: cover;
-                    width: 220px;
-                    height: 250px;
+                    width: 100%;
+                    max-width: 220px;
+                    height: 190px;
                     border-radius: 15px;
                     transition: all 200ms ease-in-out;
                     
@@ -185,27 +198,26 @@
             
             
             @include desktop {
-                &:hover .desc{
-                    color: black;
+                &:hover h3{
+                    color: $mainColor;
                 }
 
                 &:hover img{
-                    height: 100px;
-                    filter: blur(5px);
+                    background-color: $mainColor;
                     
                 }
             }
 
-            @media (pointer:none), (pointer:coarse) {
-                height: fit-content;
-                .desc{
-                    color: black;
-                }
+            // @media (pointer:none), (pointer:coarse) {
+            //     height: fit-content;
+            //     .desc{
+            //         color: black;
+            //     }
 
-                &:hover img{
-                    height: 250px;
-                }
-            }
+            //     &:hover img{
+            //         height: 250px;
+            //     }
+            // }
             
         }
     }

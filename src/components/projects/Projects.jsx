@@ -68,10 +68,12 @@ export default function Projects() {
               <div className="imgblock">
                 <img src={d.img} alt=""/>
               </div>
-              <h3>{d.title}</h3>
-              <p className="date">{d.date}</p>
-              <p className="desc">{d.desc}</p>
-              <p className="tools">{d.tools}</p>
+              <div className="textblock">
+                <h3>{d.title}</h3>
+                <p className="date">{d.date}</p>
+                <p className="desc">{d.desc}</p>
+                <p className="tools">{d.tools}</p>
+              </div>
             </a>
           </div>
         ))}
