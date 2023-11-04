@@ -76,8 +76,8 @@
             }
 
             &:hover {
-                background-color: white;
-                color: $secondColor;
+                border: 3px solid $mainColor;
+                color: $mainColor
             }
 
         }
@@ -200,11 +200,24 @@
             
             @include desktop {
                 &:hover h3{
-                    color: $mainColor;
+                    color: white;
                 }
 
-                &:hover img{
+                &:hover .tools{
+                    color: #ffd0d0;
+                }
+
+                &:hover .date{
+                    color: white;
+                }
+
+                &:hover p{
+                    color: white;
+                }
+
+                &:hover {
                     background-color: $mainColor;
+                    border-color: $mainColor;
                     
                 }
             }
