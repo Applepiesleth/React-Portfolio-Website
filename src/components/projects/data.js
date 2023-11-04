@@ -111,24 +111,24 @@ export const gamesProjects = [
         tools: "Unity",
         link: "rhythm"
     },
-    {
-        id: 8,
-        img: "./images/30.png",
-        title: "30 Days",
-        date: "Oct 2017",
-        desc: "A game developed solo for a 72 hour game jam using Unity.",
-        tools: "Unity",
-        link: "30-days"
-    },
-    {
-        id: 9,
-        img: "./images/fairnessfarm.png",
-        title: "Fairness Farm",
-        date: "Aug 2022",
-        desc: "A game-based learning approach for teaching concepts of Fairness in AI.",
-        tools: "Unity",
-        link: "fairnessfarm"
-    }
+    // {
+    //     id: 8,
+    //     img: "./images/30.png",
+    //     title: "30 Days",
+    //     date: "Oct 2017",
+    //     desc: "A game developed solo for a 72 hour game jam using Unity.",
+    //     tools: "Unity",
+    //     link: "30-days"
+    // },
+    // {
+    //     id: 9,
+    //     img: "./images/fairnessfarm.png",
+    //     title: "Fairness Farm",
+    //     date: "Aug 2022",
+    //     desc: "A game-based learning approach for teaching concepts of Fairness in AI.",
+    //     tools: "Unity",
+    //     link: "fairnessfarm"
+    // }
 ]
 
 export const appProjects = [
@@ -173,6 +173,15 @@ export const otherProjects = [
     },
     {
         id: 2,
+        img: "./images/2B.gif",
+        title: "\"2B\" Starcraft 2 Bot",
+        date: "Dec 2021",
+        desc: "Zerg player AI for StarCraft 2 using C++ and SC2 API.",
+        tools: "C++, CMake, SC2 API",
+        link: "2b-bot"
+    },
+    {
+        id: 3,
         img: "./images/cloth.png",
         title: "Softbody Cloth",
         date: "Apr 2022",

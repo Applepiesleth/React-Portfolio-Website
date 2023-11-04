@@ -42,8 +42,8 @@ body {
 }
 
 .return:hover {
-    background-color: white;
-    color: #303138;
+    border: 3px solid #d15249;
+    color: #d15249;
 }
 
 .content {
