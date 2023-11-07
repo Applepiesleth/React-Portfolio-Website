@@ -49,10 +49,40 @@
         </div>
         <div class="horizontal">
           <img src="../images/aspen/sc1.png">
-
           <img src="../images/aspen/sc2.png">
         </div>
-          
+        <h2>Shaders</h2>
+        <div class="detailstext">
+          A lot of different shaders where made to create the world of For Aspen. These shaders were developed using Unity's Universal
+          Render Pipeline (URP) and Shadergraph, a tool that allows you to build shaders visually.
+          <br><br>
+          The layer of fog present in all the areas is based of <a href="https://youtu.be/1ZsKBZnbAB8?si=O92-4fd7RbwcdJoL" target="_blank">Orthographic Fog Plane Shader</a> by
+          LMHPOLY. The shader was adjusted to work with a perspective camera, and noise was added to create the wispy effect found in the game.
+        </div>
+        <div class="horizontal">
+          <img src="../images/aspen/fog-1.png">
+        </div>
+        <div class="horizontal">
+          <img src="../images/aspen/fog-2.png">
+        </div>
+        <div class="detailstext">
+          One issue that I came across was creating transparent 3D objects while having 2D sprites. This often causes depth-sorting issues,
+          where the sprites are drawn above the transparent object rather than behind. To work around this issue, a <b>dither transparency shader</b>
+          is used. This shader does not make the object transparent, but rather creates a dither effect in which holes are rendered in the model.
+          This makes the object stay opaque while creating an illusion of transparency, allowing for the sprites to be layered behind the object. 
+        </div>
+        <div class="horizontal">
+          <img src="../images/aspen/dither-transparency.png">
+        </div>
+        <div class="detailstext">
+          To make the scenery more lively, a shader was also used to make the leaves of trees appear to shake in the wind. To this,
+          vertex positions of the leave sprites were transformed using a gradient noise pattern.
+          A shader was also used to implement shadows for the 2D sprite objects in the game, following <a href="https://youtu.be/d_OBjV7c1CY?si=PlV3wC9KbCH1BceA" target="_blank"> Tarodev's tutorial for Sprite Shadows in Unity</a>.
+        </div>
+        <div class="horizontal">
+          <img src="../images/aspen/leaves.png">
+          <img src="../images/aspen/shadow.png">
+        </div>
       </div>
       
       
