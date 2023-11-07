@@ -53,11 +53,62 @@
           <img src="../images/dungeons/sh1.png">
           <img src="../images/dungeons/sh2.png">
         </div>
-      
-      </div>
-      
-      
-      
+        <h2>Dungeon Generation</h2>
+        <div class="detailstext">
+          Throughout the game, the player will find 3 upgrades in the dungeon: a sharpener that lets your sword break boxes, boots
+          that lets you walk on spikes, and a watch that stops enemies briefly. Using these upgrades, the player can access new areas
+          that cannot be accessed without it. For example, a corridor may be covered with spikes, requiring the boots to cross it. We'll
+          call such corridors "barricades". The dungeon layout must be designed such that all the upgrades must be obtained, and that the upgrade progression is always
+          possible (i.e., an upgrade is never placed behind its respective barricade).
+          <br><br>
+          The algorithm for generating the dungeon is relatively simple. It uses a 2D array of the <code>Room</code> class to store the layout of
+          the dungeon. This array is called <code>Map</code>.
+          <br><br>
+        </div>
+        <pre class="codeblock">
+public class Room {
+  int level;                // Room's place in dungeon progress
+  bool[] doors;             // Directions in which doors are found in the room
+  int barricadeDirection;   // Direction of barricaded door in room if any, else -1
+  int layout;               // Randomized value determining what the room will look like
+
+  List &lt;Entity&gt; enemies;    // Entity struct stores x and y position, and type
+  List &lt;Entity&gt; things;
+
+  ...
+}
+
+public Room[,] map;         // Map width and height can be changed</pre>
+        <div class="detailstext">
+          To ensure that dungeon progression is always possible, a random path is created in <code>Map</code> from a start position
+          to the location of an upgrade. Once the rooms have been created, a barricade is then placed in a regular room (not the start position or the upgrade room)
+          This room will then become the start position for a path leading to the next upgrade, and repeat. This algorithm prevents upgrades
+          being locked behind their respective barricade.
+        </div>
+
+        <div class="detailstext">
+          The <code>level</code> variable in the <code>Room</code> class helps with this generation. A number is associated with certain
+          progress checkpoints:
+          <br>
+          <br>0 - Empty room (not part of the dungeon)
+          <br>1 - Starting room
+          <br>2 - Room in path to Upgrade 1
+          <br>3 - Room containing Upgrade 1
+          <br>4 - Room containing Upgrade 1 barricade (starting point for 2nd path)
+          <br>5 - Room in path to Upgrade 2
+          <br>6 - Room containing Upgrade 2
+          <br>7 - Room containing Upgrade 2 barricade (starting point for 3rd path)
+          <br>8 - Room in path to Upgrade 3
+          <br>...
+          <br><br>
+          In generating the paths, this level variable is changed in the respective <code>Room</code> in <code>Map</code>.
+          Also, barricades can only be generated in rooms with level = 2, 5, 8... or <code>level % 3 == 2</code>. The room must
+          also have at least 1 empty room adjacent to it.
+          <br><br>
+          In adding the next room in a path, the algorithm randomly chooses a direction with an empty room to expand to.
+          If no direction is empty, path generation is ended early and the room is turned into an upgrade room. One flaw of this
+          algorithm is the chance for a path to be very short because of this.  
+        </div>
     </div>
     
   </body>
