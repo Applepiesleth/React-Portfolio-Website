@@ -1,7 +1,7 @@
 import "./projects.scss"
 import { ProjectList } from "./ProjectList"
 import { useEffect, useState } from 'react';
-import { gamesProjects, featuredProjects, appProjects , otherProjects} from "./data";
+import { gamesProjects, featuredProjects, appProjects , graphicProjects, otherProjects} from "./data";
 
 export default function Projects() {
   const [selected, setSelected] = useState("featured")
@@ -13,11 +13,15 @@ export default function Projects() {
     },
     {
       id: "games",
-      title: "Games",
+      title: "Game Dev",
     },
     {
       id: "apps",
-      title: "Apps",
+      title: "Software Dev",
+    },
+    {
+      id: "graphic",
+      title: "Graphics",
     },
     {
       id: "other",
@@ -37,6 +41,9 @@ export default function Projects() {
       case "apps":
         setData(appProjects);
         break;
+        case "graphic":
+          setData(graphicProjects);
+          break;
       case "other":
           setData(otherProjects);
           break;

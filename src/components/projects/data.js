@@ -37,13 +37,13 @@ export const featuredProjects = [
     },
     {
         id: 5,
-        img: "./images/cloth.png",
-        title: "Softbody Cloth",
-        date: "Apr 2022",
-        desc: "Implementation and rendering of a Spring-Mass softbody cloth, with generation from images.",
-        tools: "WebGl, JS, HTML",
-        link: "softbody-cloth"
-    },
+        img: "./images/2B.gif",
+        title: "\"2B\" Starcraft 2 Bot",
+        date: "Dec 2021",
+        desc: "Zerg player AI for StarCraft 2 using C++ and SC2 API.",
+        tools: "C++, CMake, SC2 API",
+        link: "2b-bot"
+    }
     
 ]
 
@@ -86,6 +86,15 @@ export const gamesProjects = [
     },
     {
         id: 5,
+        img: "./images/2B.gif",
+        title: "\"2B\" Starcraft 2 Bot",
+        date: "Dec 2021",
+        desc: "Zerg player AI for StarCraft 2 using C++ and SC2 API.",
+        tools: "C++, CMake, SC2 API",
+        link: "2b-bot"
+    },
+    {
+        id: 6,
         img: "./images/emu.png",
         title: "Outback Outrun",
         date: "Nov 2021",
@@ -94,7 +103,7 @@ export const gamesProjects = [
         link: "outback-outrun"
     },
     {
-        id: 6,
+        id: 7,
         img: "./images/socks.png",
         title: "Odd Socks",
         date: "Jan 2022",
@@ -103,7 +112,7 @@ export const gamesProjects = [
         link: "odd-socks"
     },
     {
-        id: 7,
+        id: 8,
         img: "./images/rhythm.png",
         title: "There's No I in Rhythm",
         date: "Nov 2020",
@@ -161,6 +170,27 @@ export const appProjects = [
     },
 ]
 
+export const graphicProjects = [
+    {
+        id: 1,
+        img: "./images/cloth.png",
+        title: "Softbody Cloth",
+        date: "Apr 2022",
+        desc: "Implementation and rendering of a Spring-Mass softbody cloth, with generation from images.",
+        tools: "WebGL, JS, HTML",
+        link: "softbody-cloth"
+    },
+    {
+        id: 2,
+        img: "./images/aspen.png",
+        title: "For Aspen",
+        date: "May 2023",
+        desc: "A beautiful 3D adventure game where you explore your own mindscape! Lots of shaders and post-processing!",
+        tools: "Unity",
+        link: "for-aspen"
+    },
+]
+
 export const otherProjects = [
     {
         id: 1,
@@ -170,23 +200,5 @@ export const otherProjects = [
         desc: "A 24/7 Discord bot for a public server made using Discord.py, hosted on Cybera cloud services.",
         tools: "Python, Cybera",
         link: "phoebe-and-demi"
-    },
-    {
-        id: 2,
-        img: "./images/2B.gif",
-        title: "\"2B\" Starcraft 2 Bot",
-        date: "Dec 2021",
-        desc: "Zerg player AI for StarCraft 2 using C++ and SC2 API.",
-        tools: "C++, CMake, SC2 API",
-        link: "2b-bot"
-    },
-    {
-        id: 3,
-        img: "./images/cloth.png",
-        title: "Softbody Cloth",
-        date: "Apr 2022",
-        desc: "Implementation and rendering of a Spring-Mass softbody cloth, with generation from images.",
-        tools: "WebGl, JS, HTML",
-        link: "softbody-cloth"
     },
 ]

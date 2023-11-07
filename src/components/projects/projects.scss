@@ -8,7 +8,7 @@
 
     h1 {
         margin-top: 2%;
-        font-family: 'Squada One', cursive;
+        font-family: 'Squada One', sans-serif;
         text-align: center;
         font-size: 70px;
         font-weight: 500;
@@ -43,8 +43,9 @@
             font-size: 20px;
             margin: 20px;
             padding: 10px;
-            width: 90px;
+            width: 120px;
             border-radius: 15px;
+            align-items: center;
             text-align: center;
             border: 3px solid white;
             font-family: 'Roboto', sans-serif;
@@ -142,7 +143,7 @@
             h3 {
                 margin-top: 12px;
                 font-size: 30px;
-                font-family: 'Squada One', cursive;
+                font-family: 'Squada One', sans-serif;
                 text-align: left;
                 transition: all 200ms ease-in-out;
             }
@@ -218,6 +219,7 @@
                 &:hover {
                     background-color: $mainColor;
                     border-color: $mainColor;
+                    width: 75%;
                     
                 }
             }

@@ -85,7 +85,9 @@ public Room[,] map;         // Map width and height can be changed</pre>
           This room will then become the start position for a path leading to the next upgrade, and repeat. This algorithm prevents upgrades
           being locked behind their respective barricade.
         </div>
-
+        <div class="horizontal">
+          <img src="../images/dungeons/paths.png">
+        </div>
         <div class="detailstext">
           The <code>level</code> variable in the <code>Room</code> class helps with this generation. A number is associated with certain
           progress checkpoints:
@@ -107,7 +109,10 @@ public Room[,] map;         // Map width and height can be changed</pre>
           <br><br>
           In adding the next room in a path, the algorithm randomly chooses a direction with an empty room to expand to.
           If no direction is empty, path generation is ended early and the room is turned into an upgrade room. One flaw of this
-          algorithm is the chance for a path to be very short because of this.  
+          algorithm is the chance for a path to be very short because of this.
+          <br><br>
+          Room layouts are randomly selected from a predefinted set of layouts. In the future, it would be nice to procedurally
+          generate the contenct of the rooms as well!
         </div>
     </div>
     
